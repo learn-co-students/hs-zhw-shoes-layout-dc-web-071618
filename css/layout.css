@@ -23,5 +23,56 @@
 }
 
 /* Posititoning Classes */
+ #left-section{
+  width:64%;
+  float:left;
+  height: 583px;
+}
 
+#shoe-archive{
+  width:34%;
+  float:right;
+}
+
+#shoe-archive.shadow{
+  padding:10px;
+
+}
+
+.shoe-pic {
+  /*margin:10px 10px 10px 10px;*/
+  clear:both;
+  width:31%;
+  display:inline-block;
+  margin-top: 10px;/*padding:10px;*/
+  margin-right:13px;
+}
+
+.border_right {
+  width:31%;
+  display:inline-block;
+}
+
+#shoe-pic-first {
+  margin-left:0;
+  /*margin-right:-5px;*/
+ float:left;
+ 
+}
+
+#shoe-pic-second {
+  margin-right:14px;
+  margin-left:2px;
+}
+
+#shoe-pic-third {
+  margin-right:0;
+  margin-left:-1px;
+}
+
+#follow{
+  display:inline-block;
+  width:33%;
+  border-right:0px;
+}
 
