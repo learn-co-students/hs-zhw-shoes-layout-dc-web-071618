@@ -9,70 +9,30 @@
   -moz-box-sizing: border-box;
 }
 
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  height: 0;
-  line-height: 0;
-}
-
-.clear {
-  clear: both;
-}
-
 /* Posititoning Classes */
- #left-section{
-  width:64%;
-  float:left;
-  height: 583px;
-}
 
-#shoe-archive{
-  width:34%;
-  float:right;
-}
+  .row {
+    clear: both;
+    margin-bottom: 2%;
+  }
 
-#shoe-archive.shadow{
-  padding:10px;
+  .row:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+  }
 
-}
+  [class*="col-"] {
+    float: left;
+    margin-left: 2%;
+  }
 
-.shoe-pic {
-  /*margin:10px 10px 10px 10px;*/
-  clear:both;
-  width:31%;
-  display:inline-block;
-  margin-top: 10px;/*padding:10px;*/
-  margin-right:13px;
-}
+  [class*="col-"]:first-child {
+    margin-left: 0;
+  }
 
-.border_right {
-  width:31%;
-  display:inline-block;
-}
-
-#shoe-pic-first {
-  margin-left:0;
-  /*margin-right:-5px;*/
- float:left;
- 
-}
-
-#shoe-pic-second {
-  margin-right:14px;
-  margin-left:2px;
-}
-
-#shoe-pic-third {
-  margin-right:0;
-  margin-left:-1px;
-}
-
-#follow{
-  display:inline-block;
-  width:33%;
-  border-right:0px;
-}
-
+  .col-4 { width: 32%; }
+  .col-8 { width: 66%; }
